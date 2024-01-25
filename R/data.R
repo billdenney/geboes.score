@@ -1,0 +1,25 @@
+#' Geboes grading source data and descriptions for assessing inflammation in
+#' ulcerative colitis
+#'
+#' \describe{
+#'   \item{grade_category_num}{Main category}
+#'   \item{grade_category_desc}{Description of the main category}
+#'   \item{grade_subcategory_num}{Subcategory (`NA` if not applicable)}
+#'   \item{grade_subcategory_desc}{Description of the subcategory}
+#'   \item{grade}{Text value of the grade}
+#'   \item{grade_num}{Numeric value of the grade within the category/subcategory}
+#'   \item{description}{Text description of the grade}
+#'   \item{normal}{Is the grade normal or abnormal? (see Li 2019)}
+#' }
+#' @source
+#'   <https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC1728046&blobtype=pdf>
+#' @references Geboes K, Riddell R, Öst A, Jensfelt B, Persson T, Löfberg R. A
+#' reproducible grading scale for histological assessment of inflammation in
+#' ulcerative colitis. Gut. 2000;47(3):404-409. doi:10.1136/gut.47.3.404
+#'
+#' Li K, Strauss R, Marano C, et al. A Simplified Definition of Histologic
+#' Improvement in Ulcerative Colitis and its Association With Disease Outcomes
+#' up to 30 Weeks from Initiation of Therapy: Post Hoc Analysis of Three
+#' Clinical Trials. Journal of Crohn’s and Colitis. 2019;13(8):1025-1035.
+#' doi:10.1093/ecco-jcc/jjz022
+"geboes_grades"
