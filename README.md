@@ -1,6 +1,9 @@
 # geboes.score
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/billdenney/geboes.score/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/billdenney/geboes.score/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/billdenney/geboes.score/branch/main/graph/badge.svg)](https://app.codecov.io/gh/billdenney/geboes.score?branch=main)
+[![CRAN status](https://www.r-pkg.org/badges/version/geboes.score)](https://CRAN.R-project.org/package=geboes.score)
 <!-- badges: end -->
 
 The goal of geboes.score is to enable evaluation and validation of the Geboes
