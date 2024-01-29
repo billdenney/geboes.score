@@ -5,6 +5,9 @@
 #' @export
 factor_geboes_score <- function(x, drop_0 = FALSE) {
   assert_geboes_score(x)
+  if (drop_0) {
+    x[endsWith(as.character(x), ".0")] <- "0.0"
+  }
   factor(x, levels = levels_geboes_score(drop_0 = drop_0), ordered = TRUE)
 }
 
