@@ -17,5 +17,6 @@ The maximum value of \code{x} where values ending in ".0" are considered
 as "0.0"
 }
 \description{
-Determine the maximum value of the Geboes score
+Since the values ending in ".0" indicate no effect, they are not considered
+in which values is the maximum.  In other words, "2.0" < "1.1".
 }
