@@ -11,4 +11,12 @@ test_that("levels_geboes_score", {
 
 test_that("factor_geboes_score", {
   expect_s3_class(factor_geboes_score("0.0"), "factor")
+  expect_equal(
+    factor_geboes_score("1.0"),
+    factor("1.0", levels = geboes.score::geboes_grades$grade, ordered = TRUE)
+  )
+  expect_equal(
+    factor_geboes_score("1.0", drop_0 = TRUE),
+    factor("0.0", levels = levels_geboes_score(drop_0 = TRUE), ordered = TRUE)
+  )
 })
