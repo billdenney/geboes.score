@@ -1,6 +1,6 @@
 Package: geboes.score
 Title: Evaluate and Validate Geboes Score for Histological Assessment of Inflammation in Ulcerative Colitis
-Version: 0.0.0.9000
+Version: 1.0.0
 Authors@R: 
     person("Bill", "Denney", email="wdenney@humanpredictions.com", role=c("aut", "cre"), comment=c(ORCID="0000-0002-5759-428X"))
 Description: Evaluate and validate Geboes score for histological assessment of
