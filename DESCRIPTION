@@ -5,8 +5,8 @@ Authors@R:
     person("Bill", "Denney", email="wdenney@humanpredictions.com", role=c("aut", "cre"), comment=c(ORCID="0000-0002-5759-428X"))
 Description: Evaluate and validate Geboes score for histological assessment of
   inflammation in ulcerative colitis.  The original Geboes score
-  <doi:10.1136/gut.47.3.404>, binary version <doi:doi:10.1093/ecco-jcc/jjz022>,
-  and continuous version <doi:10.1093/ecco-jcc/jjz123> are all described and
+  <doi:10.1136/gut.47.3.404>, binary version <doi:10.1093/ecco-jcc/jjz022>, and
+  continuous version <doi:10.1093/ecco-jcc/jjz123> are all described and
   implemented.
 License: GPL (>= 3)
 Encoding: UTF-8
