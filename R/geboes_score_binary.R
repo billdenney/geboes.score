@@ -10,6 +10,8 @@
 #'   Disease Outcomes up to 30 Weeks from Initiation of Therapy: Post Hoc
 #'   Analysis of Three Clinical Trials. Journal of Crohn’s and Colitis.
 #'   2019;13(8):1025-1035. doi:10.1093/ecco-jcc/jjz022
+#' @examples
+#' geboes_score_binary(c("3.1", "4.0", "3.2")) # c("Normal", "Normal", "Abnormal")
 #' @export
 geboes_score_binary <- function(x) {
   assert_geboes_score(x)

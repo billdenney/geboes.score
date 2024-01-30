@@ -16,6 +16,9 @@ A character vector the same length as \code{x} with "normal" or "abnormal"
 Values <= "3.1" or ending with ".0" are considered "normal"; values > "3.1"
 are considered abnormal based on Li 2019.
 }
+\examples{
+geboes_score_binary(c("3.1", "4.0", "3.2")) # c("Normal", "Normal", "Abnormal")
+}
 \references{
 Li K, Strauss R, Marano C, et al. A Simplified Definition of
 Histologic Improvement in Ulcerative Colitis and its Association With

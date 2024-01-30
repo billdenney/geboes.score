@@ -1,7 +1,7 @@
 #' Convert a Geboes score into a factor
 #'
 #' @inheritParams assert_geboes_score
-#' @return `x` as a factor
+#' @return `x` as a factor, verified to be a Geboes score
 #' @export
 factor_geboes_score <- function(x, drop_0 = FALSE) {
   assert_geboes_score(x)
