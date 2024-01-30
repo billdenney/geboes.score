@@ -23,5 +23,5 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(geboes.score)
-max_geboes_score(c("4.1", "5.0"))
+max_geboes_score(c("0.0", "1.2", "2A.2", "2B.1", "3.3", "4.1", "5.0")) # "4.1"
 ```
