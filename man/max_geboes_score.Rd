@@ -4,10 +4,12 @@
 \alias{max_geboes_score}
 \title{Determine the maximum value of the Geboes score}
 \usage{
-max_geboes_score(x, na.rm = TRUE)
+max_geboes_score(x, all_categories = TRUE, na.rm = TRUE)
 }
 \arguments{
 \item{x}{A character vector of Geboes score grades}
+
+\item{all_categories}{Must \code{x} include all categories exactly once?}
 
 \item{na.rm}{a logical indicating whether missing values should be
     removed.}
@@ -19,4 +21,12 @@ as "0.0"
 \description{
 Since the values ending in ".0" indicate no effect, they are not considered
 in which values is the maximum.  In other words, "2.0" < "1.1".
+}
+\details{
+Typical use of \code{max_geboes_score()} is to find the maximum for a single
+person at a single time.  For that, the \code{all_categories} argument ensures
+that each category is present exactly once.
+}
+\examples{
+max_geboes_score(c("0.0", "1.2", "2A.2", "2B.1", "3.3", "4.1", "5.0")) # 4.1
 }
