@@ -15,7 +15,7 @@ levels_geboes_score(drop_0 = FALSE)
 \item{drop_0}{Drop the ".0" levels other than "0.0"}
 }
 \value{
-\code{x} as a factor
+\code{x} as a factor, verified to be a Geboes score
 }
 \description{
 Convert a Geboes score into a factor
